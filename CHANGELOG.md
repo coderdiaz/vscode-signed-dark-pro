@@ -4,6 +4,10 @@
 
 >All notable changes in this project's [released versions](https://github.com/alex-munene/vscode-signed-dark-pro/releases) are documented in this file.
 
+### RELEASE: [1.0.0](https://github.com/alex-munene/vscode-signed-dark-pro/compare/0.1.0...1.0.0)
+
+<br>
+
 ### RELEASE: 0.1.0
 
 <br>
