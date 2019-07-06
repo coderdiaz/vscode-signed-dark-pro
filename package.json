@@ -1,7 +1,7 @@
 {
     "name": "signed-dark-pro",
     "displayName": "Signed Dark Pro",
-    "description": "A minimal professional dark theme suite crafted for your VS Code editor",
+    "description": "A classic minimal professional dark theme suite crafted for your VS Code editor",
     "version": "0.0.1",
     "publisher": "alex-munene",
     "engines": {
@@ -63,7 +63,6 @@
         "start": "nodemon --exec vsce package",
         "release": "release-it && npx vsce publish",
         "release-major": "release-it major && npx vsce publish",
-        "pre-release": "release-it major --preRelease=beta && npx vsce publish",
         "log": "auto-changelog && git add CHANGELOG.md && git commit -m 'DOCS: Update changelog'"
     },
     "devDependencies": {

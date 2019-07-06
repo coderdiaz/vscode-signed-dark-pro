@@ -2,9 +2,9 @@
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/alex-munene.signed-dark-pro.svg?label=Visual%20Code%20Marketplace&colorB=0080FF)](https://marketplace.visualstudio.com/items?itemName=alex-munene.signed-dark-pro) [![Installs](https://vsmarketplacebadge.apphb.com/installs/alex-munene.signed-dark-pro.svg?label=Installs&colorB=0080FF)](https://marketplace.visualstudio.com/items?itemName=alex-munene.signed-dark-pro) [![Downloads](https://vsmarketplacebadge.apphb.com/downloads/alex-munene.signed-dark-pro.svg?label=Downloads&colorB=0080FF)](https://marketplace.visualstudio.com/items?itemName=alex-munene.signed-dark-pro) [![Ratings](https://img.shields.io/vscode-marketplace/r/alex-munene.signed-dark-pro.svg?label=Ratings&colorB=0080FF)](https://marketplace.visualstudio.com/items?itemName=alex-munene.signed-dark-pro#review-details)
 
->A minimal professional dark theme suite crafted for your VS Code editor
+>A classic minimal professional dark theme suite crafted for your VS Code editor
 
-![Signed Dark Pro Preview](https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/signe_preview.png)
+![Signed Dark Pro Preview](https://raw.githubusercontent.com/alex-munene/vscode-signed-dark-pro/master/images/signed_preview.png)
 
 [![GitHub stars](https://img.shields.io/github/stars/alex-munene/vscode-signed-dark-pro.svg?style=social&label=Stars)](https://github.com/alex-munene/vscode-signed-dark-pro/stargazers) [![GitHub followers](https://img.shields.io/github/followers/alex-munene.svg?style=social&label=Follow)](https://github.com/alex-munene?tab=followers) [![Tweet for help](https://img.shields.io/twitter/follow/mr_alex_munene.svg?style=social&label=Tweet%20@mr_alex_munene)](https://twitter.com/mr_alex_munene/)
 
