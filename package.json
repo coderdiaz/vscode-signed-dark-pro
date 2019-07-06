@@ -2,7 +2,7 @@
     "name": "signed-dark-pro",
     "displayName": "Signed Dark Pro",
     "description": "A classic minimal professional dark theme suite crafted for your VS Code editor",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "alex-munene",
     "engines": {
         "vscode": "^1.35.0"
@@ -18,8 +18,8 @@
         "url": "https://github.com/alex-munene/vscode-signed-dark-pro.git"
     },
     "bugs": {
-		"url": "https://github.com/alex-munene/vscode-signed-dark-pro/issues"
-	},
+        "url": "https://github.com/alex-munene/vscode-signed-dark-pro/issues"
+    },
     "keywords": [
         "Signed",
         "VSCode",
