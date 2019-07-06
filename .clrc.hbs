@@ -1,0 +1,37 @@
+# CHANGELOG: Signed Dark Pro
+
+[![Version](https://vsmarketplacebadge.apphb.com/version/alex-munene.signed-dark-pro.svg?label=Visual%20Code%20Marketplace&colorB=0080FF)](https://marketplace.visualstudio.com/items?itemName=alex-munene.signed-dark-pro) [![Installs](https://vsmarketplacebadge.apphb.com/installs/alex-munene.signed-dark-pro.svg?label=Installs&colorB=0080FF)](https://marketplace.visualstudio.com/items?itemName=alex-munene.signed-dark-pro) [![Downloads](https://vsmarketplacebadge.apphb.com/downloads/alex-munene.signed-dark-pro.svg?label=Downloads&colorB=0080FF)](https://marketplace.visualstudio.com/items?itemName=alex-munene.signed-dark-pro) [![Ratings](https://img.shields.io/vscode-marketplace/r/alex-munene.signed-dark-pro.svg?label=Ratings&colorB=0080FF)](https://marketplace.visualstudio.com/items?itemName=alex-munene.signed-dark-pro#review-details)
+
+>All notable changes in this project's [released versions](https://github.com/alex-munene/vscode-signed-dark-pro/releases) are documented in this file.
+
+{{#each releases}}
+
+{{#if href}}
+### RELEASE: [{{title}}]({{href}}){{#if tag}}{{/if}}
+{{else}}
+### RELEASE: {{title}}{{#if tag}}{{/if}}
+{{/if}}
+
+{{! List commits with `ADDED: ` somewhere in the message - Added for new features. }}
+{{#commit-list commits heading='![ADDED](https://img.shields.io/badge/-ADDED-gray.svg?colorB=0080FF)' message='ADDED: '}}
+> {{subject}} [`{{shorthash}}`]({{href}}) <br>
+{{/commit-list}}
+
+{{! List commits with `CHANGED: ` somewhere in the message - Changed for changes in existing functionality. }}
+{{#commit-list commits heading='![CHANGED](https://img.shields.io/badge/-CHANGED-gray.svg?colorB=0080FF)' message='CHANGED: '}}
+> {{subject}} [`{{shorthash}}`]({{href}}) <br>
+{{/commit-list}}
+
+{{! List commits with `REMOVED: ` somewhere in the message - Removed for now removed features. }}
+{{#commit-list commits heading='![REMOVED](https://img.shields.io/badge/-REMOVED-gray.svg?colorB=FF0000)' message='REMOVED: '}}
+> {{subject}} [`{{shorthash}}`]({{href}}) <br>
+{{/commit-list}}
+
+{{! List commits with `FIXED: ` somewhere in the message - Fixed for any bug fixes. }}
+{{#commit-list commits heading='![FIXED](https://img.shields.io/badge/-FIXED-gray.svg?colorB=00FF00)' message='FIXED: '}}
+> {{subject}} [`{{shorthash}}`]({{href}}) <br>
+{{/commit-list}}
+
+<br>
+
+{{/each}}

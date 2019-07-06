@@ -1,0 +1,32 @@
+{
+    "force": true,
+    "verbose": true,
+    "increment": "minor",
+    "beforeChangelogCommand": "auto-changelog",
+    "src": {
+        "commitMessage": "Signed Dark Pro %s release",
+        "tagAnnotation": "Release %s"
+    },
+    "git": {        
+        "commitMessage": "Signed Dark Pro ${version} release",
+        "tagAnnotation": "Release ${version}"
+    },
+    "github": {
+        "release": false,
+        "releaseName": "Signed Dark Pro v${version}",
+        "tokenRef": "GITHUB_TOKEN"
+    },
+    "npm": {
+        "publish": false
+    },
+    "prompt": {
+        "src": {
+            "status": true,
+            "commit": true,
+            "tag": true,
+            "push": true,
+            "release": true,
+            "publish": true
+        }
+    }
+}

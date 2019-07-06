@@ -1,0 +1,74 @@
+{
+    "name": "signed-dark-pro",
+    "displayName": "Signed Dark Pro",
+    "description": "A minimal professional dark theme suite crafted for your VS Code editor",
+    "version": "0.0.1",
+    "publisher": "alex-munene",
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "galleryBanner": {
+        "color": "#080808",
+        "theme": "dark"
+    },
+    "icon": "images/logo.png",
+    "homepage": "https://github.com/alex-munene/vscode-signed-dark-pro",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alex-munene/vscode-signed-dark-pro.git"
+    },
+    "bugs": {
+		"url": "https://github.com/alex-munene/vscode-signed-dark-pro/issues"
+	},
+    "keywords": [
+        "Signed",
+        "VSCode",
+        "Dark Pro",
+        "Dark Theme",
+        "VSCode Theme",
+        "Signed Dark Pro",
+        "Dark VSCode Theme"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Signed Dark Pro",
+                "uiTheme": "vs-dark",
+                "path": "./themes/signed-dark-pro.color-theme.json"
+            }
+        ]
+    },
+    "auto-changelog": {
+        "output": "CHANGELOG.md",
+        "template": ".clrc.hbs",
+        "commitLimit": false,
+        "unreleased": true,
+        "package": true,
+        "replaceText": {
+            "ADDED: ": "",
+            "CHANGED: ": "",
+            "REMOVED: ": "",
+            "FIXED: ": "",
+            "DOCS: ": ""
+        },
+        "includeBranch": [
+            "master"
+        ]
+    },
+    "scripts": {
+        "release-dry": "release-it --dry-run",
+        "start": "nodemon --exec vsce package",
+        "release": "release-it && npx vsce publish",
+        "release-major": "release-it major && npx vsce publish",
+        "pre-release": "release-it major --preRelease=beta && npx vsce publish",
+        "log": "auto-changelog && git add CHANGELOG.md && git commit -m 'DOCS: Update changelog'"
+    },
+    "devDependencies": {
+        "auto-changelog": "^1.13.0",
+        "nodemon": "^1.19.1",
+        "release-it": "^12.3.0"
+    }
+}
